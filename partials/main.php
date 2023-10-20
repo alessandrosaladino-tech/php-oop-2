@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <?php foreach ($products as $product) : ?>
-                <div class="col">
+                <div class="col-3">
                     <div class="card mt-5 mb-5">
                         <div class="card-img-top">
                             <img src="https://picsum.photos/200/300" style="width: 100%; object-fit:contain;" alt="">
