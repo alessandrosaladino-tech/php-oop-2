@@ -1,14 +1,19 @@
-
-
 <main>
     <div class="container">
         <div class="row">
             <?php foreach ($products as $product) : ?>
                 <div class="col">
-                    <h2><?= $product->name; ?></h2>
-                    <h2><?= $product->animal_type; ?></h2>
-                    <h2><?= $product->price; ?> €</h2>
-                    <h2><?= $product->getInfo();?></h2>
+                    <div class="card mt-5 mb-5">
+                        <div class="card-img-top">
+                            <img src="https://picsum.photos/200/300" style="width: 100%; object-fit:contain;" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h3><?= $product->name; ?></h3>
+                            <p>Per: <?= $product->animal_type; ?></p>
+                            <p>Prezzo: <?= $product->price; ?> €</p>
+                            <p><?= $product->getInfo(); ?></p>
+                        </div>
+                    </div>
                 </div>
             <?php endforeach; ?>
         </div>

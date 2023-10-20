@@ -21,6 +21,7 @@ require __DIR__ . "/models/product.php";
 require __DIR__ . "/models/toys.php";
 require __DIR__ . "/models/food.php";
 require __DIR__ . "/models/kennel.php";
+//require __DIR__ . "/models/category.php"; non funziona 
 require __DIR__ ."/db.php";
 
 ?>
@@ -42,6 +43,8 @@ require __DIR__ ."/db.php";
     include "./partials/head.php";
 
     include "./partials/main.php";
+
+    include "./partials/footer.php";
 
 
     ?>
