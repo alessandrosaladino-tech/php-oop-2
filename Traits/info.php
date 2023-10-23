@@ -7,4 +7,8 @@ trait Info
         return $this->color;
     }
 
+    public function getMaterial()
+    {
+        return $this->material;
+    }
 }

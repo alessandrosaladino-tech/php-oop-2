@@ -2,12 +2,19 @@
 
 class kennel extends Product
 {
-    public $dimensions;
+    use Info;
 
-    public function __construct($_name, $_price, $animal_type, $_dimensions)
+
+    public $dimensions;
+    public $material;
+    public $color;
+
+    public function __construct($_name, $_price, $animal_type, $_dimensions, $_material, $_color)
     {
         parent::__construct($_name, $_price, $animal_type);
         $this->dimensions = $_dimensions;
+        $this->material = $_material;
+        $this->color = $_color;
     }
 
     public function getInfo()
