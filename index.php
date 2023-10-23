@@ -17,6 +17,8 @@ Bonus (non opzionale):
 
 <?php
 
+require __DIR__ . "/Traits/info.php";
+
 require __DIR__ . "/models/product.php";
 require __DIR__ . "/models/toys.php";
 require __DIR__ . "/models/food.php";

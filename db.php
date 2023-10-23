@@ -1,5 +1,6 @@
 <?php
 
+
 $products = [];
 
 array_push(
@@ -7,7 +8,7 @@ array_push(
 
     $croccantini = new food("Croccantini", "30", "Cani", "20"),
 
-    $osso = new toy("Osso", "20", "Cani", "Gomma"),
+    $osso = new toy("Osso", "20", "Cani", "Gomma", "bianco"),
 
     $trasportino = new kennel("My cat Trasportino", "34", "Gatti", "50x50x30"),
 
@@ -15,7 +16,7 @@ array_push(
 
     $biscotti = new food("Biscotti", "10", "Gatti", "1"),
 
-    $topolino = new toy("Topolino", "10", "Gatti", "Pezza"),
+    $topolino = new toy("Topolino", "10", "Gatti", "Pezza", "grigio"),
 
     $kennel = new kennel("Kennel cani e gatti", "64", "Cani e Gatti", "150x150x100"),
 

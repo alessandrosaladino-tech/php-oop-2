@@ -11,7 +11,8 @@
                             <h3><?= $product->name; ?></h3>
                             <p>Per: <?= $product->animal_type; ?></p>
                             <p>Prezzo: <?= $product->price; ?> €</p>
-                            <p><?= $product->getInfo(); ?></p>
+                            <p><?= $product->getMaterial(); ?></p>
+                            <p><?= $product->getColor(); ?></p>
                         </div>
                     </div>
                 </div>
